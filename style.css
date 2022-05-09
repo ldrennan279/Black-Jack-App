@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(images/Group\ 3.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: 'Koulen';
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    min-width: 350px;
+    max-width: 500px;
+    max-height: 700px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+.header{
+    padding: 0px;
+    /* margin-bottom: 20px; */
+    color: #E1C42B;
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: -5px;
+    line-height: 70px;
+    text-shadow: 3px 3px 10px #2a2a2a;
+}
+
+.messageDisplay{
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 409px;
+    color: white;
+    background: #e1c32b27;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #2a2a2a;
+}
+.messageResult{
+    margin: 10px;
+    padding: 2px;
+    color: white;
+    font-size: 32px;
+    letter-spacing: .10em;
+    background: rgba(8, 0, 255, 0.458);
+    /* background: rgba(255, 255, 255, 0.458); */
+    border-radius: 5px;
+    text-shadow: 2px 2px 20px #ffffff;
+}
+
+.cardsResults,
+.totalSumOfCards{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 5px;
+    /* text-shadow: 3px 3px 10px #2a2a2a; */
+}
+.btn-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    background: #E1C42B;
+    color: #3668B3;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Koulen';
+    letter-spacing: .25em;
+    min-width: 309px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #2a2a2a;
+}
+button:hover,
+button:focus{
+    cursor: pointer;
+    color: #E1C42B;
+    background: rgba(8, 0, 255, 0.458);
+}
+.nextCard{
+    display: none;
+}
